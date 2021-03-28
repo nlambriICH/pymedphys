@@ -36,6 +36,9 @@ sphinx:
     html_css_files:
       - style.css
 
+    templates_path:
+      - _templates
+
   extra_extensions:
     - sphinx.ext.autodoc
     - sphinx.ext.doctest
